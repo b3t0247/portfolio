@@ -39,9 +39,8 @@ body {
 
 .nav-list {
     display: flex;
-    margin: 2rem;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .nav-list a {
@@ -59,7 +58,7 @@ ul {
     list-style: none;
 }
 
-.welcome-section{
+.welcome-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,6 +66,27 @@ ul {
     width: 100%;
     height: 100vh;
     background-color: var(--main-gray);
+}
+
+.projects-section {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #717978;
+}
+
+.projects-container {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    /* border: 2px solid blue; */
+    background: black;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (width: 768px) {
