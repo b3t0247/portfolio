@@ -33,6 +33,20 @@ Ex: 980px / 16px = 61.25rem */
     }
 }
 
+/* 980px / 16px = 16px = 61.25em */
+@media (max-width: 61.25em) {
+    html {
+        font-size: 58%;
+    }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    html {
+        font-size: 55%;
+    }
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
@@ -40,6 +54,12 @@ body {
     line-height: 1.4;
     color: var(--main-white);
 }
+
+ul {
+    list-style: none;
+}
+
+/* nav */
 
 .nav {
     display: flex;
@@ -55,8 +75,8 @@ body {
 
 .nav-list {
     display: flex;
-    margin: 0;
-    padding: 0;
+    /* margin: 0; */
+    /* padding: 0; */
 }
 
 .nav-list a {
@@ -70,9 +90,7 @@ a {
     color: var(--main-white)
 }
 
-ul {
-    list-style: none;
-}
+/* Welcome section */
 
 .welcome-section {
     display: flex;
@@ -83,6 +101,8 @@ ul {
     height: 100vh;
     background-color: var(--main-gray);
 }
+
+/* Projects section */
 
 .projects-section {
     text-align: center;
@@ -103,8 +123,4 @@ ul {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-}
-
-@media only screen and (width: 768px) {
-
 }
