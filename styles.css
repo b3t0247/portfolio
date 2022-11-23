@@ -47,6 +47,8 @@ Ex: 980px / 16px = 61.25rem */
     }
 }
 
+/* Base styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8rem;
@@ -111,16 +113,28 @@ a {
     background-color: #717978;
 }
 
-.projects-container {
-    /* border: 2px solid red; */
+.projects-header {
+    max-width: 640px;
+    margin: 0 auto 3rem auto;
+    padding-top: 2rem;
+}
+
+@media (max-width: 28.75rem) {
+    .projects-header {
+        font-size: 1.5rem;
+    }
+}
+
+/* .projects-container {
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
 }
 
 .project {
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     background: black;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
